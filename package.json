@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "scripts": {
+    "test": "npm test:no-loader",
+    "test-cmd": "ava",
+    "test:no-loader": "npm run test-cmd -- --config test/config/no-loader.js",
+    "test:original": "npm run test-cmd -- --config test/config/original.js",
+    "test:patched": "npm run test-cmd -- --config test/config/patched.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.16.5",
+    "@node-loader/babel": "2.0.0",
+    "ava": "4.0.0-rc.1"
+  }
+}
