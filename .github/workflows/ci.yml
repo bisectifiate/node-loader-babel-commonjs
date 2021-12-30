@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        loader: ["no-loader", "original", "patched"]
+        loader: ["no-loader", "original", "patched", "botch-format"]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v2
