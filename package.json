@@ -9,7 +9,7 @@
     "test:botch-format": "npm run test-cmd -- --config test/config/botch-format.js"
   },
   "devDependencies": {
-    "@babel/core": "7.16.5",
+    "@babel/core": "7.16.7",
     "@node-loader/babel": "2.0.0",
     "ava": "4.0.0-rc.1"
   }
