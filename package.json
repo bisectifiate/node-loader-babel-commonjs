@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "test": "npm test:no-loader",
+    "test": "npm run test:no-loader",
     "test-cmd": "ava",
     "test:no-loader": "npm run test-cmd -- --config test/config/no-loader.js",
     "test:original": "npm run test-cmd -- --config test/config/original.js",
