@@ -8,7 +8,7 @@
     "test:patched": "npm run test-cmd -- --config test/config/patched.js"
   },
   "devDependencies": {
-    "@babel/core": "7.17.5",
+    "@babel/core": "7.17.9",
     "@node-loader/babel": "2.0.1",
     "ava": "4.0.1"
   }
