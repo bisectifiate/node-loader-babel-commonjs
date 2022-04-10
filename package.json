@@ -10,6 +10,6 @@
   "devDependencies": {
     "@babel/core": "7.17.5",
     "@node-loader/babel": "2.0.1",
-    "ava": "4.0.1"
+    "ava": "4.2.0"
   }
 }
