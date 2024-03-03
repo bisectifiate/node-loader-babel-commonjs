@@ -5,7 +5,8 @@
     "test-cmd": "ava",
     "test:no-loader": "npm run test-cmd -- --config test/config/no-loader.js",
     "test:original": "npm run test-cmd -- --config test/config/original.js",
-    "test:patched": "npm run test-cmd -- --config test/config/patched.js"
+    "test:patched": "npm run test-cmd -- --config test/config/patched.js",
+    "test:botch-format": "npm run test-cmd -- --config test/config/botch-format.js"
   },
   "devDependencies": {
     "@babel/core": "7.20.2",
