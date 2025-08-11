@@ -12,7 +12,7 @@ jobs:
         loader: ["no-loader", "original", "patched"]
     steps:
       - name: Checkout 🛎️
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: Install 📦
         uses: bahmutov/npm-install@v1
